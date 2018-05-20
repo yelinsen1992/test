@@ -1,0 +1,33 @@
+.inner-box{
+    padding:5px 10px 15px;
+    border-bottom:12px solid #f6f7fb;
+}
+.list-title{
+    color:#010101; 
+    font-size:16px;
+    line-height:1em;
+    padding:10px 0 15px 10px;
+    position:relative;
+}
+.list-title:before{
+    content:'';
+    width:3px;
+    height:16px;
+    border-radius:3px;
+    background-color:#ffdc00;
+    position:absolute;
+    top:10px;
+    left:0;
+    margin:auto;
+}
+.loadmore{
+    text-align:center;
+    color:#333;
+    font-size:16px;
+    line-height:1em;
+    background: #f4ce09;
+    background: -webkit-gradient(linear, left top, right top, from(#fee800),to(#f4ce09));
+    background: linear-gradient(to right, #fee800,#f4ce09);
+    padding:12px 0;
+    border-radius:40px;
+}
